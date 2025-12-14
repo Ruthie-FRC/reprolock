@@ -1,0 +1,13 @@
+[project]
+name = "reprolock"
+version = "0.1.0"
+description = "Framework for enforcing deterministic execution of simulations across machines, ensuring reproducibility or reporting failures."
+authors = [{name="Ruthie-FRC"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.27"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
